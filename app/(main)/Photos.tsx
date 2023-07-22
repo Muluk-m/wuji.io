@@ -4,12 +4,12 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import React from 'react'
 
-import image5 from '~/assets/highlights/highlight-cali.jpeg'
-import image1 from '~/assets/highlights/highlight-cat.jpeg'
-import image3 from '~/assets/highlights/highlight-controller.jpg'
-import image6 from '~/assets/highlights/highlight-push.png'
-import image2 from '~/assets/highlights/highlight-workshop.jpg'
-import image4 from '~/assets/highlights/highlight-zolplay.jpg'
+import image1 from '~/assets/highlights/highlight-1.jpeg'
+import image2 from '~/assets/highlights/highlight-2.jpeg'
+import image3 from '~/assets/highlights/highlight-3.jpeg'
+import image4 from '~/assets/highlights/highlight-4.jpeg'
+import image5 from '~/assets/highlights/highlight-5.jpeg'
+import image6 from '~/assets/highlights/highlight-6.jpeg'
 
 const images = [image1, image2, image3, image4, image5, image6]
 const alts = [

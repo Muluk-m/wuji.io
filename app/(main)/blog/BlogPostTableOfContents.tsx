@@ -19,15 +19,15 @@ interface Node {
 
 const parseOutline = (nodes: Node[]) => {
   return nodes
-    .filter((node) => node._type === 'block' && node.style.startsWith('h'))
-    .map((node) => {
+    ?.filter((node) => node._type === 'block' && node.style.startsWith('h'))
+    ?.map((node) => {
       return {
         style: node.style,
         text:
           node.children?.[0] !== undefined ? node.children[0].text ?? '' : '',
         id: node._key,
       }
-    })
+    }) ?? []
 }
 
 const listVariants = {
