@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: '无忌',
     locale: 'zh_CN',
     type: 'website',
-    url: 'https://cali.so',
+    url: 'https://wuji.io',
   },
   twitter: {
     site: '@thecalicastle',

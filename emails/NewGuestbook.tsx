@@ -9,7 +9,7 @@ const NewGuestbookEmail = ({
   link = 'https://caliso/guestbook',
   userFirstName = '长',
   userLastName = '无忌',
-  userImageUrl = 'https://cali.so/icon.png',
+  userImageUrl = 'https://wuji.io/icon.png',
   commentContent = '*测试评论*\n- Wow wtf\n- Cool',
 }: {
   link?: string | null

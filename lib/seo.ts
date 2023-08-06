@@ -4,7 +4,7 @@ export const seo = {
     '这里是无忌的私人空间',
   url: new URL(
     process.env.NODE_ENV === 'production'
-      ? 'https://cali.so'
+      ? 'https://wuji.io'
       : 'http://localhost:3000'
   ),
 } as const
